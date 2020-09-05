@@ -1,0 +1,587 @@
+2020-09-05 14:31:30,474 ERROR 96404 [-/::1/-/9ms GET /] nodejs.Error: Could not find matching close tag for "<%-".
+    at /Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:736:19
+    at Array.forEach (<anonymous>)
+    at Template.generateSource (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:721:15)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:574:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+
+pid: 96404
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 14:44:38,299 ERROR 98194 [-/::1/-/5ms GET /] nodejs.TypeError: res.end is not a function
+    at respond (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:266:44)
+    at handleResponse (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 98194
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 14:44:43,791 ERROR 98194 [-/::1/-/1ms GET /] nodejs.TypeError: res.end is not a function
+    at respond (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:266:44)
+    at handleResponse (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 98194
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 14:45:04,237 ERROR 98243 [-/::1/-/8ms GET /] nodejs.TypeError: res.end is not a function
+    at respond (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:266:44)
+    at handleResponse (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 98243
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 14:56:02,383 ERROR 99094 [-/::1/-/69ms GET /weather] nodejs.SyntaxError: missing ) after argument list in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 99094
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 14:56:03,550 ERROR 99094 [-/::1/-/53ms GET /weather] nodejs.SyntaxError: missing ) after argument list in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 99094
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 15:04:51,976 WARN 761 [-/127.0.0.1/-/15ms POST /weather] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-05 15:04:51,978 WARN 761 [-/127.0.0.1/-/16ms POST /weather] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/reng/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/reng/Desktop/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 761
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 15:06:29,831 WARN 1137 [-/127.0.0.1/-/17ms POST /weather] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-05 15:06:29,833 WARN 1137 [-/127.0.0.1/-/18ms POST /weather] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/reng/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/reng/Desktop/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 1137
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 15:06:56,757 WARN 1137 [-/127.0.0.1/-/1ms POST /weather] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-05 15:06:56,757 WARN 1137 [-/127.0.0.1/-/1ms POST /weather] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/reng/Desktop/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/reng/Desktop/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/reng/Desktop/egg-demo/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/reng/Desktop/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 1137
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 15:22:52,770 ERROR 3256 [-/127.0.0.1/-/71ms POST /weather] nodejs.TypeError: res.end is not a function
+    at respond (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:266:44)
+    at handleResponse (/Users/reng/Desktop/egg-demo/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 3256
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:48:50,712 ERROR 4253 [-/127.0.0.1/-/77ms POST /weather] nodejs.SyntaxError: /Users/reng/Desktop/egg-demo/app/view/weather.html:42
+    40|             dataIndex: 'weather'
+    41|           }]"
+ >> 42|           data-source="`<%= JSON.parse(data.weather_data) %>`"
+    43|           bordered
+    44|           :pagination="false">
+    45|           <template slot="title" slot-scope="currentPageData">
+
+Unexpected token o in JSON at position 1
+    40|             dataIndex: 'weather'
+    41|           }]"
+ >> 42|           data-source="`<%= JSON.parse(data.weather_data) %>`"
+    43|           bordered
+    44|           :pagination="false">
+    45|           <template slot="title" slot-scope="currentPageData">
+
+Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at eval (/Users/reng/Desktop/egg-demo/app/view/weather.html:21:31)
+    at weather (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+path: "/Users/reng/Desktop/egg-demo/app/view/weather.html"
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:49:07,738 ERROR 4253 [-/127.0.0.1/-/61ms POST /weather] nodejs.Error: Could not find matching close tag for "<%=".
+    at /Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:736:19
+    at Array.forEach (<anonymous>)
+    at Template.generateSource (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:721:15)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:574:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:53:08,116 ERROR 4253 [-/127.0.0.1/-/69ms POST /weather] nodejs.ReferenceError: /Users/reng/Desktop/egg-demo/app/view/weather.html:28
+    26|         <a-alert style="width: 260px; margin: 0 auto;" :message="`<%= data.msg %>`" banner />
+    27|       <% } else { %>
+ >> 28|         <% let data = data.weather_data %>
+    29|         <a-table 
+    30|           :columns="[{
+    31|             title: '日期',
+
+Cannot access 'data' before initialization
+    26|         <a-alert style="width: 260px; margin: 0 auto;" :message="`<%= data.msg %>`" banner />
+    27|       <% } else { %>
+ >> 28|         <% let data = data.weather_data %>
+    29|         <a-table 
+    30|           :columns="[{
+    31|             title: '日期',
+
+Cannot access 'data' before initialization
+    at eval (/Users/reng/Desktop/egg-demo/app/view/weather.html:21:19)
+    at weather (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+    at async WeatherController.postWeather (/Users/reng/Desktop/egg-demo/app/controller/weather.js:16:5)
+path: "/Users/reng/Desktop/egg-demo/app/view/weather.html"
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:53:46,360 ERROR 4253 [-/127.0.0.1/-/83ms POST /weather] nodejs.TypeError: /Users/reng/Desktop/egg-demo/app/view/weather.html:59
+    57|             <td></td>
+    58|           </tr>
+ >> 59|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    60|             <tr>
+    61|               <td class="date"><%= data.weather_data[i].date %></td>
+    62|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    57|             <td></td>
+    58|           </tr>
+ >> 59|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    60|             <tr>
+    61|               <td class="date"><%= data.weather_data[i].date %></td>
+    62|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    at eval (/Users/reng/Desktop/egg-demo/app/view/weather.html:27:44)
+    at weather (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+    at async WeatherController.postWeather (/Users/reng/Desktop/egg-demo/app/controller/weather.js:16:5)
+path: "/Users/reng/Desktop/egg-demo/app/view/weather.html"
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:53:48,361 ERROR 4253 [-/127.0.0.1/-/47ms POST /weather] nodejs.TypeError: /Users/reng/Desktop/egg-demo/app/view/weather.html:59
+    57|             <td></td>
+    58|           </tr>
+ >> 59|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    60|             <tr>
+    61|               <td class="date"><%= data.weather_data[i].date %></td>
+    62|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    57|             <td></td>
+    58|           </tr>
+ >> 59|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    60|             <tr>
+    61|               <td class="date"><%= data.weather_data[i].date %></td>
+    62|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    at eval (/Users/reng/Desktop/egg-demo/app/view/weather.html:27:44)
+    at weather (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+    at async WeatherController.postWeather (/Users/reng/Desktop/egg-demo/app/controller/weather.js:16:5)
+path: "/Users/reng/Desktop/egg-demo/app/view/weather.html"
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:54:15,647 ERROR 4253 [-/127.0.0.1/-/72ms POST /weather] nodejs.TypeError: /Users/reng/Desktop/egg-demo/app/view/weather.html:58
+    56|             <td></td>
+    57|           </tr>
+ >> 58|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    59|             <tr>
+    60|               <td class="date"><%= data.weather_data[i].date %></td>
+    61|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    56|             <td></td>
+    57|           </tr>
+ >> 58|           <% for(let i =0; i < data.weather_data.length; i++) {%>
+    59|             <tr>
+    60|               <td class="date"><%= data.weather_data[i].date %></td>
+    61|               <td class="temperature"><%= data.weather_data[i].temperature %></td>
+
+Cannot read property 'length' of undefined
+    at eval (/Users/reng/Desktop/egg-demo/app/view/weather.html:24:44)
+    at weather (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view/lib/context_view.js:70:23)
+    at async WeatherController.postWeather (/Users/reng/Desktop/egg-demo/app/controller/weather.js:16:5)
+path: "/Users/reng/Desktop/egg-demo/app/view/weather.html"
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:56:40,775 ERROR 4253 [-/127.0.0.1/-/57ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:03,906 ERROR 4253 [-/127.0.0.1/-/73ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:04,957 ERROR 4253 [-/127.0.0.1/-/54ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:05,463 ERROR 4253 [-/127.0.0.1/-/206ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:06,293 ERROR 4253 [-/127.0.0.1/-/348ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:31,143 ERROR 4253 [-/127.0.0.1/-/63ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:32,233 ERROR 4253 [-/127.0.0.1/-/59ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:32,729 ERROR 4253 [-/127.0.0.1/-/50ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:33,126 ERROR 4253 [-/127.0.0.1/-/44ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:33,625 ERROR 4253 [-/127.0.0.1/-/49ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:57:51,849 ERROR 4253 [-/127.0.0.1/-/60ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+
+2020-09-05 17:58:01,956 ERROR 4253 [-/127.0.0.1/-/66ms POST /weather] nodejs.SyntaxError: Missing catch or finally after try in /Users/reng/Desktop/egg-demo/app/view/weather.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:652:12)
+    at Object.compile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:392:16)
+    at handleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:215:18)
+    at tryHandleCache (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:254:16)
+    at Object.exports.renderFile (/Users/reng/Desktop/egg-demo/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/lib/view.js:28:36)
+
+pid: 4253
+hostname: rengdeMacBook-Pro.local
+

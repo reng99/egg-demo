@@ -1,2 +1,0 @@
-# egg-demo
-egg demo

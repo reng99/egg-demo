@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天气预报</title>
+  <link rel="stylesheet" href="https://unpkg.com/ant-design-vue@1.6.4/dist/antd.min.css"/>
+  <link rel="stylesheet" href="/public/weather.css" />
+</head>
+
+<body>
+  <div id="app">
+    <a-result>
+      <template slot="icon">
+        <a-icon type="cloud"/>
+      </template>
+      <template slot="title">
+        <b>天气预报 - <%= data.currentCity %></b>
+      </template>
+    </a-result>
+    <div class="search">
+      <form action="http://127.0.0.1:7001/weather" method="POST">
+        <input type="text" name="location" placeholder="请输入城市，如：广州" required>
+        <a-button type="primary" html-type="submit">查询</a-button>
+      </form>
+    </div>
+    <div class="main">
+      <% if(data.code === -1) { %>
+        <a-alert style="width: 260px; margin: 0 auto;" :message="`<%= data.msg %>`" banner />
+      <% } else { %>
+        <a-timeline mode="alternate">
+          <% for(let i =0; i < data.weather_data.length; i++) {%>
+            <a-timeline-item :color="`<%= i % 2 == 0 ? 'blue' : 'green'%>`">
+              <p style="margin-bottom: 4px;"><%= data.weather_data[i].date %></p>
+              <a-tag color="orange"><%= data.weather_data[i].temperature %></a-tag>
+              <p style="margin-top: 4px;"><%= data.weather_data[i].wind %></p>
+            </a-timeline-item>
+          <% } %>
+        </a-timeline>
+        
+      <% } %>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ant-design-vue/1.6.4/antd.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      new Vue({
+        el: '#app'
+      })
+    })()
+  </script>
+</body>
+
+</html>

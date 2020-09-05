@@ -1,0 +1,294 @@
+{
+  "keys": "/Users/reng/Desktop/egg-demo/config/config.default.js",
+  "middleware": "/Users/reng/Desktop/egg-demo/config/config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "/Users/reng/Desktop/egg-demo/config/config.default.js"
+    },
+    "root": "/Users/reng/Desktop/egg-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/reng/Desktop/egg-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/reng/Desktop/egg-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/reng/Desktop/egg-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/reng/Desktop/egg-demo/config/config.default.js",
+    "domainWhiteList": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/reng/Desktop/egg-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/reng/Desktop/egg-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/reng/Desktop/egg-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/reng/Desktop/egg-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/reng/Desktop/egg-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/reng/Desktop/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/reng/Desktop/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/reng/Desktop/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/reng/Desktop/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/reng/Desktop/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/reng/Desktop/egg-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/reng/Desktop/egg-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/reng/Desktop/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/reng/Desktop/egg-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/reng/Desktop/egg-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/reng/Desktop/egg-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/reng/Desktop/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/reng/Desktop/egg-demo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/reng/Desktop/egg-demo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/reng/Desktop/egg-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/reng/Desktop/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/reng/Desktop/egg-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/reng/Desktop/egg-demo/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "url": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/reng/Desktop/egg-demo/node_modules/egg/config/config.default.js"
+}

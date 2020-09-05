@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#app .search{
+  text-align: center;
+}
+
+#app .search input{
+  outline: none;
+  width: 200px;
+  height: 34px;
+  border-radius: 4px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+}
+
+#app .main{
+  margin: 20px 0;
+}
