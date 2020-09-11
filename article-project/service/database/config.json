@@ -2,14 +2,14 @@
   "development": {
     "username": "reng",
     "password": "123456",
-    "database": "instagram",
+    "database": "article",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "reng",
     "password": "123456",
-    "database": "instagram",
+    "database": "article",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
