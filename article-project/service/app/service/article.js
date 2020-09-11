@@ -10,7 +10,7 @@ class ArticleService extends Service {
       offset: (parseInt(obj.page) - 1) * parseInt(obj.page_size),
       limit: parseInt(obj.page_size)
     })
-  }id
+  }
 
   async getArticle(id) {
     const { ctx } = this
